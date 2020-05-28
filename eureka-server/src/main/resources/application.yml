@@ -1,0 +1,8 @@
+server:
+  port: 8764
+spring:
+  application:
+    name: eureka-server
+eureka:
+  client:
+    service-url: {defaultZone: 'http://localhost:8764/eureka/'}
